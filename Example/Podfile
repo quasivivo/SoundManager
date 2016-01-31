@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SoundManager_Example', :exclusive => true do
+  pod 'SoundManager', :path => '../'
+end
+
+target 'SoundManager_Tests', :exclusive => true do
+  pod 'SoundManager', :path => '../'
+
+  
+end
