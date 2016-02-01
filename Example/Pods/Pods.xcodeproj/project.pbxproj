@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2149D8B067DAADF1DF26B2C7466719 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F551DFBF0F43603E5A9D13AF27522811 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		0E97CF6069C3A68F7F3221670274B579 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E8293935B6EE3FE963C6B3E56CE18 /* SlideNavigationController.m */; };
+		10DDC174E113914E3218E2B4B259F790 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D1DE97D740461BA631175D4FA882CC /* SlideNavigationContorllerAnimatorSlide.m */; };
+		1CD39E52A50ED2DA0B0D625B3E257F98 /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E086C2E7035A4995E9FFFCD6191BE750 /* SlideNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAD7825CAB90EA984DEEAD89EE47DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		223CE075A561DADB84D4B198313DB085 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = E39E3D3B06778F63B8A8A72D63C186D4 /* SlideNavigationContorllerAnimatorScaleAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278F621A27C8FBDE1483D9E585B6C0AD /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F29F6B06C03671E805CB9596424618 /* SlideNavigationContorllerAnimatorScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287E63E6D5C966BF31011686EDE8BEEE /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B1792A0DE63EFED9553720C5B7D1B56E /* SlideNavigationContorllerAnimatorFade.m */; };
+		3ED6F5B5DC137AF1D4B3F7875C35780E /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10F31F819BD08E503B3A696D579A27 /* SlideNavigationContorllerAnimatorSlideAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		444E85FE0839EA5957AF9EF81D781CD6 /* WHSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F5A5BC8D1155CB98E4842247D92596 /* WHSoundManager.m */; };
+		5B28A4A3728556BC38030D44698B5C41 /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC7761D1611F55420FBE27A42F17FD3 /* SlideNavigationContorllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B951A2A136A5E391E745D8FE38C565B /* WHSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC89DB714B5EE567BE8436429D6C373C /* WHSoundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65EF89283B88F58CAC348F6B6EE6E851 /* iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCDC843361C5817F377431DA499006 /* iOS-Slide-Menu-dummy.m */; };
+		73AA2E4357B6149E15E9F9972839A360 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647088C427F0C29B3421E9689D54836 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		80AB87CB0A8D63AF2F9EF320665CAF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		83268FC838AE77C31EF8CC0D403A1F9E /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 806035118AD9DB07C6DFF81784F6C1D9 /* SlideNavigationContorllerAnimatorFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C0340A0DAA5EE7B3F4F8A64CD9D6C5 /* Pods-SoundManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10135B10D2F419F4D15B48B88EF55403 /* Pods-SoundManager_Example-dummy.m */; };
+		A38A5771356CC9885D0204A71CDCB048 /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = C214FDEDCE48C27BC240BD2AF18B3DDB /* SlideNavigationContorllerAnimatorSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB295F0442990B146E1EA125C3CF00E5 /* SoundManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9242340A867E79BBF941AC4AAB6BA6E /* SoundManager-dummy.m */; };
+		E0F0A68F6834C42B657DB355240889E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		E524B50639F4EE77F800A74B46CDD842 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C489E8274900D801D5C9E57BB5A29D /* SlideNavigationContorllerAnimatorScale.m */; };
+		F62973A96E15E0B810A9CCFC9F81A46D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		F8ACC12E4BC7803B1B8B4731BB3786ED /* Pods-SoundManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1067BDE004AEF5D2D52051AD8F7AA3F /* Pods-SoundManager_Tests-dummy.m */; };
+		FE8EB20DE95C337B55D3486031AAB573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CDFE10445A424F3568023172BA8F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839810147E3D5E758DA10DB2758900E;
+			remoteInfo = SoundManager;
+		};
+		33B17B9D0B77593E1B376020D2BA2E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C8647DD33AEB6D8706D1A9DB17FA18;
+			remoteInfo = "iOS-Slide-Menu";
+		};
+		A8BB8798C24E97C31B751A1FA3B0C71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839810147E3D5E758DA10DB2758900E;
+			remoteInfo = SoundManager;
+		};
+		C132848ECD8043EBA13C419C30496C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787FBC4E6F5882F33707254CF846D76A;
+			remoteInfo = "SoundManager-SoundManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoundManager.xcconfig; sourceTree = "<group>"; };
+		076E8293935B6EE3FE963C6B3E56CE18 /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
+		10135B10D2F419F4D15B48B88EF55403 /* Pods-SoundManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundManager_Example-dummy.m"; sourceTree = "<group>"; };
+		1647088C427F0C29B3421E9689D54836 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		259031539C3256753AB9893568217381 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
+		2AC7761D1611F55420FBE27A42F17FD3 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		2EC447B0C7A4C1F54E71DF3A7CD476DB /* Pods-SoundManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2D6876DCCA043E2510E2A692601199 /* Pods-SoundManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3151BF49FC9EADD92747F9369BDF668D /* Pods-SoundManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		37F5A5BC8D1155CB98E4842247D92596 /* WHSoundManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHSoundManager.m; sourceTree = "<group>"; };
+		3AA8A837737C8E6A8BE78207449EF706 /* libiOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E538996316718FCF2E4E331817F27 /* Pods-SoundManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundManager_Example-resources.sh"; sourceTree = "<group>"; };
+		48F29F6B06C03671E805CB9596424618 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		53B185B87EF49EBE5CA7CC3D2AB3AB72 /* libSoundManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSoundManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B29CA9E5BD3C342F2DF5486951024B /* Pods-SoundManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76C489E8274900D801D5C9E57BB5A29D /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		778010E51047E2411F00517931D537BC /* Pods-SoundManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		792805BD0D6F81CCA37817213175F04C /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
+		806035118AD9DB07C6DFF81784F6C1D9 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		84BEC9BE97539B0AA77F4AAFFF0EDACE /* libPods-SoundManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8995829AF95646D8ADC81D27D5ED6124 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
+		AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B1792A0DE63EFED9553720C5B7D1B56E /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		B3D1DE97D740461BA631175D4FA882CC /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		B6DD6E843DF7C6A2E5FFE5CFDCAB013E /* Pods-SoundManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE850F4E425ECA47512E8488D965CBB8 /* SoundManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoundManager-prefix.pch"; sourceTree = "<group>"; };
+		C214FDEDCE48C27BC240BD2AF18B3DDB /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		C54A2605E0A64BF633775C9343FD391C /* ResourceBundle-SoundManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SoundManager-Info.plist"; sourceTree = "<group>"; };
+		CDDCDC843361C5817F377431DA499006 /* iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
+		D635D41133915B228CE899EF89DD95CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA7668DA1C1A45F0B51D7C215146B00B /* SoundManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7A9C513940A45001E75A5633E18312 /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
+		DC10F31F819BD08E503B3A696D579A27 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		DC5BC56B40EED6341239379EF680EB3F /* Pods-SoundManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC89DB714B5EE567BE8436429D6C373C /* WHSoundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHSoundManager.h; sourceTree = "<group>"; };
+		E086C2E7035A4995E9FFFCD6191BE750 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
+		E1067BDE004AEF5D2D52051AD8F7AA3F /* Pods-SoundManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		E39E3D3B06778F63B8A8A72D63C186D4 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		E8495D0FE4D33F9DCF3680E039925FD6 /* Pods-SoundManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E9242340A867E79BBF941AC4AAB6BA6E /* SoundManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoundManager-dummy.m"; sourceTree = "<group>"; };
+		EACC81B0A73F61A7A5DDC4EDB60A068F /* Pods-SoundManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBD064500A38F0FB905836A2C39854D9 /* Pods-SoundManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		EFAA3930F510D57541971BF7CDD3E317 /* Pods-SoundManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F551DFBF0F43603E5A9D13AF27522811 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		F8B3778DFD4AAD4AD19C6E65ABDE2407 /* libPods-SoundManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DADD083E4A7DDA9F5CEB5FD175D9BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAD7825CAB90EA984DEEAD89EE47DB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8A7E4F33E969C0FD4E12887A9B2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62973A96E15E0B810A9CCFC9F81A46D /* Foundation.framework in Frameworks */,
+				FE8EB20DE95C337B55D3486031AAB573 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D27BCC1F1B5BA7A2CBFC131B73CE826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB87CB0A8D63AF2F9EF320665CAF5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE3B7FF9E67578C3D339F2FB0258429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F0A68F6834C42B657DB355240889E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB242E069876BD0FA50DCB9E44DA8E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC7E5E60702B42B592A5CA7F90E7043 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C7447EA49C6F72C0F3A381C8D5E1ECD /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2673B83FE95206B9F879764A17232329 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87E676E3A195ABC7F39D20B91F37F8EC /* SoundManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2EA9F3AAE44A27DE8404AC8EFB8CA7E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91B29A67BAAE0CAC98D8300AD7AF9B73 /* iOS-Slide-Menu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E294F3BD993E240DCFCB4DC1329C9F36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5291B9E45FE5C23D1EDE0258640CD2DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7A9C513940A45001E75A5633E18312 /* iOS-Slide-Menu.xcconfig */,
+				CDDCDC843361C5817F377431DA499006 /* iOS-Slide-Menu-dummy.m */,
+				792805BD0D6F81CCA37817213175F04C /* iOS-Slide-Menu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		6123D46ACB71BA2ED93A8DE8395170B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A81D3CA9A460BD0E83C6B39194FE65F /* Pods-SoundManager_Example */,
+				FE9914A92212F904CB58236B425067EC /* Pods-SoundManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A81D3CA9A460BD0E83C6B39194FE65F /* Pods-SoundManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				778010E51047E2411F00517931D537BC /* Pods-SoundManager_Example-acknowledgements.markdown */,
+				B6DD6E843DF7C6A2E5FFE5CFDCAB013E /* Pods-SoundManager_Example-acknowledgements.plist */,
+				10135B10D2F419F4D15B48B88EF55403 /* Pods-SoundManager_Example-dummy.m */,
+				E8495D0FE4D33F9DCF3680E039925FD6 /* Pods-SoundManager_Example-frameworks.sh */,
+				461E538996316718FCF2E4E331817F27 /* Pods-SoundManager_Example-resources.sh */,
+				2EC447B0C7A4C1F54E71DF3A7CD476DB /* Pods-SoundManager_Example.debug.xcconfig */,
+				3151BF49FC9EADD92747F9369BDF668D /* Pods-SoundManager_Example.release.xcconfig */,
+			);
+			name = "Pods-SoundManager_Example";
+			path = "Target Support Files/Pods-SoundManager_Example";
+			sourceTree = "<group>";
+		};
+		6C7447EA49C6F72C0F3A381C8D5E1ECD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC89DB714B5EE567BE8436429D6C373C /* WHSoundManager.h */,
+				37F5A5BC8D1155CB98E4842247D92596 /* WHSoundManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				2673B83FE95206B9F879764A17232329 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				2EA9F3AAE44A27DE8404AC8EFB8CA7E2 /* Pods */,
+				90D55BF116F2A9E35517B4A39017AFB3 /* Products */,
+				6123D46ACB71BA2ED93A8DE8395170B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87E676E3A195ABC7F39D20B91F37F8EC /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				0DC7E5E60702B42B592A5CA7F90E7043 /* Pod */,
+				ED5A5098290F7CA48ABA13B0D3998A7B /* Support Files */,
+			);
+			name = SoundManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		90D55BF116F2A9E35517B4A39017AFB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8A837737C8E6A8BE78207449EF706 /* libiOS-Slide-Menu.a */,
+				F8B3778DFD4AAD4AD19C6E65ABDE2407 /* libPods-SoundManager_Example.a */,
+				84BEC9BE97539B0AA77F4AAFFF0EDACE /* libPods-SoundManager_Tests.a */,
+				53B185B87EF49EBE5CA7CC3D2AB3AB72 /* libSoundManager.a */,
+				DA7668DA1C1A45F0B51D7C215146B00B /* SoundManager.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B29A67BAAE0CAC98D8300AD7AF9B73 /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2AC7761D1611F55420FBE27A42F17FD3 /* SlideNavigationContorllerAnimator.h */,
+				806035118AD9DB07C6DFF81784F6C1D9 /* SlideNavigationContorllerAnimatorFade.h */,
+				B1792A0DE63EFED9553720C5B7D1B56E /* SlideNavigationContorllerAnimatorFade.m */,
+				48F29F6B06C03671E805CB9596424618 /* SlideNavigationContorllerAnimatorScale.h */,
+				76C489E8274900D801D5C9E57BB5A29D /* SlideNavigationContorllerAnimatorScale.m */,
+				E39E3D3B06778F63B8A8A72D63C186D4 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				1647088C427F0C29B3421E9689D54836 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				C214FDEDCE48C27BC240BD2AF18B3DDB /* SlideNavigationContorllerAnimatorSlide.h */,
+				B3D1DE97D740461BA631175D4FA882CC /* SlideNavigationContorllerAnimatorSlide.m */,
+				DC10F31F819BD08E503B3A696D579A27 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				F551DFBF0F43603E5A9D13AF27522811 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				E086C2E7035A4995E9FFFCD6191BE750 /* SlideNavigationController.h */,
+				076E8293935B6EE3FE963C6B3E56CE18 /* SlideNavigationController.m */,
+				BA4CCA5D0E9697D1A917E3DEA3368500 /* Resources */,
+				5291B9E45FE5C23D1EDE0258640CD2DE /* Support Files */,
+			);
+			path = "iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		BA4CCA5D0E9697D1A917E3DEA3368500 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				259031539C3256753AB9893568217381 /* menu-button.png */,
+				8995829AF95646D8ADC81D27D5ED6124 /* menu-button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E294F3BD993E240DCFCB4DC1329C9F36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D635D41133915B228CE899EF89DD95CE /* Foundation.framework */,
+				AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED5A5098290F7CA48ABA13B0D3998A7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54A2605E0A64BF633775C9343FD391C /* ResourceBundle-SoundManager-Info.plist */,
+				01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */,
+				E9242340A867E79BBF941AC4AAB6BA6E /* SoundManager-dummy.m */,
+				BE850F4E425ECA47512E8488D965CBB8 /* SoundManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SoundManager";
+			sourceTree = "<group>";
+		};
+		FE9914A92212F904CB58236B425067EC /* Pods-SoundManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EACC81B0A73F61A7A5DDC4EDB60A068F /* Pods-SoundManager_Tests-acknowledgements.markdown */,
+				DC5BC56B40EED6341239379EF680EB3F /* Pods-SoundManager_Tests-acknowledgements.plist */,
+				E1067BDE004AEF5D2D52051AD8F7AA3F /* Pods-SoundManager_Tests-dummy.m */,
+				EFAA3930F510D57541971BF7CDD3E317 /* Pods-SoundManager_Tests-frameworks.sh */,
+				EBD064500A38F0FB905836A2C39854D9 /* Pods-SoundManager_Tests-resources.sh */,
+				2F2D6876DCCA043E2510E2A692601199 /* Pods-SoundManager_Tests.debug.xcconfig */,
+				68B29CA9E5BD3C342F2DF5486951024B /* Pods-SoundManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SoundManager_Tests";
+			path = "Target Support Files/Pods-SoundManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42F4C31912C31B4C9535A2960E34EC4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B951A2A136A5E391E745D8FE38C565B /* WHSoundManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7569276CCB4766CCBBD1A8800CFF8BCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B28A4A3728556BC38030D44698B5C41 /* SlideNavigationContorllerAnimator.h in Headers */,
+				83268FC838AE77C31EF8CC0D403A1F9E /* SlideNavigationContorllerAnimatorFade.h in Headers */,
+				278F621A27C8FBDE1483D9E585B6C0AD /* SlideNavigationContorllerAnimatorScale.h in Headers */,
+				223CE075A561DADB84D4B198313DB085 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */,
+				A38A5771356CC9885D0204A71CDCB048 /* SlideNavigationContorllerAnimatorSlide.h in Headers */,
+				3ED6F5B5DC137AF1D4B3F7875C35780E /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */,
+				1CD39E52A50ED2DA0B0D625B3E257F98 /* SlideNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B19BF9B02848DB514792DA183EE124 /* Build configuration list for PBXNativeTarget "iOS-Slide-Menu" */;
+			buildPhases = (
+				0AA26D69CAE959783532A88A0007167E /* Sources */,
+				63F8A7E4F33E969C0FD4E12887A9B2F3 /* Frameworks */,
+				7569276CCB4766CCBBD1A8800CFF8BCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Slide-Menu";
+			productName = "iOS-Slide-Menu";
+			productReference = 3AA8A837737C8E6A8BE78207449EF706 /* libiOS-Slide-Menu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1102F217A0A8406658EC0B909AFC1B03 /* Pods-SoundManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1EA7ED0611AA4056C881882C0FA79B /* Build configuration list for PBXNativeTarget "Pods-SoundManager_Example" */;
+			buildPhases = (
+				4C0820F03AFCEFC67CCD37C778F806F0 /* Sources */,
+				9D27BCC1F1B5BA7A2CBFC131B73CE826 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E968B9471771387B308453C3D8FE73A /* PBXTargetDependency */,
+				A0FE82733603176BACFE5707AE83C90B /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundManager_Example";
+			productName = "Pods-SoundManager_Example";
+			productReference = F8B3778DFD4AAD4AD19C6E65ABDE2407 /* libPods-SoundManager_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1839810147E3D5E758DA10DB2758900E /* SoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7560D1D1EF16CE565AB438CCF8910770 /* Build configuration list for PBXNativeTarget "SoundManager" */;
+			buildPhases = (
+				BE7A8C2ADE96AEEB74FC8D1F69911025 /* Sources */,
+				DAE3B7FF9E67578C3D339F2FB0258429 /* Frameworks */,
+				42F4C31912C31B4C9535A2960E34EC4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD936C75539A9AEAAA8EB05CA99F919 /* PBXTargetDependency */,
+			);
+			name = SoundManager;
+			productName = SoundManager;
+			productReference = 53B185B87EF49EBE5CA7CC3D2AB3AB72 /* libSoundManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		787FBC4E6F5882F33707254CF846D76A /* SoundManager-SoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21806DC053DFEC6AC8DF7AB7116766D5 /* Build configuration list for PBXNativeTarget "SoundManager-SoundManager" */;
+			buildPhases = (
+				EDD24607FEA89956621E4E030FE8D4A6 /* Sources */,
+				EB242E069876BD0FA50DCB9E44DA8E13 /* Frameworks */,
+				21333AAACDBAEC2EE53E617B25BB9C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoundManager-SoundManager";
+			productName = "SoundManager-SoundManager";
+			productReference = DA7668DA1C1A45F0B51D7C215146B00B /* SoundManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F6B80EE27261939244844D6C6E78DBAD /* Pods-SoundManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A948A5F1027AF9998CD4A5774BC745 /* Build configuration list for PBXNativeTarget "Pods-SoundManager_Tests" */;
+			buildPhases = (
+				A140EBBD8865C67E50D13195DFD55A41 /* Sources */,
+				0DADD083E4A7DDA9F5CEB5FD175D9BE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E75C5FDD4B204B5158DF35348E9F0F /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundManager_Tests";
+			productName = "Pods-SoundManager_Tests";
+			productReference = 84BEC9BE97539B0AA77F4AAFFF0EDACE /* libPods-SoundManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 90D55BF116F2A9E35517B4A39017AFB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */,
+				1102F217A0A8406658EC0B909AFC1B03 /* Pods-SoundManager_Example */,
+				F6B80EE27261939244844D6C6E78DBAD /* Pods-SoundManager_Tests */,
+				1839810147E3D5E758DA10DB2758900E /* SoundManager */,
+				787FBC4E6F5882F33707254CF846D76A /* SoundManager-SoundManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21333AAACDBAEC2EE53E617B25BB9C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA26D69CAE959783532A88A0007167E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EF89283B88F58CAC348F6B6EE6E851 /* iOS-Slide-Menu-dummy.m in Sources */,
+				287E63E6D5C966BF31011686EDE8BEEE /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				E524B50639F4EE77F800A74B46CDD842 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				73AA2E4357B6149E15E9F9972839A360 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				10DDC174E113914E3218E2B4B259F790 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				0E2149D8B067DAADF1DF26B2C7466719 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				0E97CF6069C3A68F7F3221670274B579 /* SlideNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0820F03AFCEFC67CCD37C778F806F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C0340A0DAA5EE7B3F4F8A64CD9D6C5 /* Pods-SoundManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A140EBBD8865C67E50D13195DFD55A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ACC12E4BC7803B1B8B4731BB3786ED /* Pods-SoundManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7A8C2ADE96AEEB74FC8D1F69911025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB295F0442990B146E1EA125C3CF00E5 /* SoundManager-dummy.m in Sources */,
+				444E85FE0839EA5957AF9EF81D781CD6 /* WHSoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD24607FEA89956621E4E030FE8D4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E75C5FDD4B204B5158DF35348E9F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundManager;
+			target = 1839810147E3D5E758DA10DB2758900E /* SoundManager */;
+			targetProxy = 07CDFE10445A424F3568023172BA8F00 /* PBXContainerItemProxy */;
+		};
+		4E968B9471771387B308453C3D8FE73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundManager;
+			target = 1839810147E3D5E758DA10DB2758900E /* SoundManager */;
+			targetProxy = A8BB8798C24E97C31B751A1FA3B0C71D /* PBXContainerItemProxy */;
+		};
+		6FD936C75539A9AEAAA8EB05CA99F919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SoundManager-SoundManager";
+			target = 787FBC4E6F5882F33707254CF846D76A /* SoundManager-SoundManager */;
+			targetProxy = C132848ECD8043EBA13C419C30496C41 /* PBXContainerItemProxy */;
+		};
+		A0FE82733603176BACFE5707AE83C90B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Slide-Menu";
+			target = 01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */;
+			targetProxy = 33B17B9D0B77593E1B376020D2BA2E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0747FCDFA7571F18FE20B4957569F9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SoundManager/ResourceBundle-SoundManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				PRODUCT_NAME = SoundManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2D26CA50E1172CC51009309CC839F41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B29CA9E5BD3C342F2DF5486951024B /* Pods-SoundManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2E8194AE3DAF2999E9FF926F7A3F2B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3151BF49FC9EADD92747F9369BDF668D /* Pods-SoundManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B3EA30CAFAA7E5C14B1095D4A355981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2D6876DCCA043E2510E2A692601199 /* Pods-SoundManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62C00FA01CECCE095B3C0131CF96FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7A9C513940A45001E75A5633E18312 /* iOS-Slide-Menu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80900870875B4C6AF233F04B0477418E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SoundManager/SoundManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9862FDD7D41CADC2613AAA7507ADF76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SoundManager/SoundManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A2744BE561A0CD0F4083C58709B9529A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B92D1108A671DDE596C2AE54680A4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA2B8719A8739A42F858B09C482EBF /* SoundManager.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SoundManager/ResourceBundle-SoundManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				PRODUCT_NAME = SoundManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C30662985F8C4C315C487100CC80D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7A9C513940A45001E75A5633E18312 /* iOS-Slide-Menu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC6EB90E25E50950F26DEC771D866FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC447B0C7A4C1F54E71DF3A7CD476DB /* Pods-SoundManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F24A8E2465A7C10A54BE3E33D1A368A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21806DC053DFEC6AC8DF7AB7116766D5 /* Build configuration list for PBXNativeTarget "SoundManager-SoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92D1108A671DDE596C2AE54680A4F4B /* Debug */,
+				0747FCDFA7571F18FE20B4957569F9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B19BF9B02848DB514792DA183EE124 /* Build configuration list for PBXNativeTarget "iOS-Slide-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30662985F8C4C315C487100CC80D054 /* Debug */,
+				62C00FA01CECCE095B3C0131CF96FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2744BE561A0CD0F4083C58709B9529A /* Debug */,
+				F24A8E2465A7C10A54BE3E33D1A368A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7560D1D1EF16CE565AB438CCF8910770 /* Build configuration list for PBXNativeTarget "SoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80900870875B4C6AF233F04B0477418E /* Debug */,
+				9862FDD7D41CADC2613AAA7507ADF76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A948A5F1027AF9998CD4A5774BC745 /* Build configuration list for PBXNativeTarget "Pods-SoundManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3EA30CAFAA7E5C14B1095D4A355981 /* Debug */,
+				2D26CA50E1172CC51009309CC839F41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1EA7ED0611AA4056C881882C0FA79B /* Build configuration list for PBXNativeTarget "Pods-SoundManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6EB90E25E50950F26DEC771D866FBE /* Debug */,
+				2E8194AE3DAF2999E9FF926F7A3F2B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

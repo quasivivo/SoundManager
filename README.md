@@ -22,7 +22,7 @@ pod "SoundManager"
 
 ## Author
 
-William Hannah, wph@Williams-MacBook-Pro.local
+William Hannah, whannah@gmail.com
 
 ## License
 

@@ -1,0 +1,19 @@
+PODS:
+  - iOS-Slide-Menu (1.4.6)
+  - SoundManager (0.1.0)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu (~> 1.4.5)
+  - SoundManager (from `../`)
+
+EXTERNAL SOURCES:
+  SoundManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 3a8b157f87694fce888899f169e05b433575ff90
+  SoundManager: ad6941698b73b473ef6345cc7e6535c6414ce12f
+
+PODFILE CHECKSUM: 034a75169cd5073063b21449df07892be87a7e7f
+
+COCOAPODS: 1.0.0.beta.2

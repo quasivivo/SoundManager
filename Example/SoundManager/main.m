@@ -2,7 +2,7 @@
 //  main.m
 //  SoundManager
 //
-//  Created by William Hannah on 01/31/2016.
+//  Created by William Hannah on 1/31/2016.
 //  Copyright (c) 2016 William Hannah. All rights reserved.
 //
 

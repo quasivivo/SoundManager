@@ -2,17 +2,19 @@
 //  WHAppDelegate.m
 //  SoundManager
 //
-//  Created by William Hannah on 01/31/2016.
+//  Created by William Hannah on 1/31/2016.
 //  Copyright (c) 2016 William Hannah. All rights reserved.
 //
 
 #import "WHAppDelegate.h"
+#import "WHMenuTableViewController.h"
+#import "iOS-Slide-Menu/SlideNavigationController.h"
 
 @implementation WHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self setupSlideMenu];
     return YES;
 }
 
@@ -41,6 +43,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Initializers / Setup
+
+-(void) setupSlideMenu {
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    WHMenuTableViewController *leftMenu = (WHMenuTableViewController*)[mainStoryboard instantiateViewControllerWithIdentifier:@"menuViewController"];
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
 }
 
 @end

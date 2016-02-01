@@ -1,12 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
 
-target 'SoundManager_Example', :exclusive => true do
+target 'SoundManager_Example' do
   pod 'SoundManager', :path => '../'
+  pod 'iOS-Slide-Menu', '~> 1.4.5'
 end
 
-target 'SoundManager_Tests', :exclusive => true do
+target 'SoundManager_Tests' do
   pod 'SoundManager', :path => '../'
-
-  
 end

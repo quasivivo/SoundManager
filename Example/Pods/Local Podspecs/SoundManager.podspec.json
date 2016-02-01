@@ -1,0 +1,26 @@
+{
+  "name": "SoundManager",
+  "version": "0.1.0",
+  "summary": "This pod provides a simple API to play an audio clip immediately.",
+  "description": "This pod is responsible for playing short to medium length audio clips from an iOS 7.x+ application.",
+  "homepage": "https://github.com/quasivivo/SoundManager",
+  "license": "MIT",
+  "authors": {
+    "William Hannah": "whannah@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/quasivivo/audioManager.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/wph",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SoundManager": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

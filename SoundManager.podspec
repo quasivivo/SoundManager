@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SoundManager"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SoundManager."
+  s.summary          = "This pod provides a simple API to play an audio clip immediately."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+This pod is responsible for playing short to medium length audio clips from an iOS 7.x+ application.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SoundManager"
+  s.homepage         = "https://github.com/quasivivo/SoundManager"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "William Hannah" => "wph@Williams-MacBook-Pro.local" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SoundManager.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "William Hannah" => "whannah@gmail.com" }
+  s.source           = { :git => "https://github.com/quasivivo/audioManager.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/wph'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
