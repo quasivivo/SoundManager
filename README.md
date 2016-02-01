@@ -13,8 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-SoundManager is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+SoundManager would be (but currently isn't) available through [CocoaPods](http://cocoapods.org). Once it is, this file will be updated and to install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "SoundManager"
