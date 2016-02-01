@@ -24,7 +24,7 @@ This pod is responsible for playing short to medium length audio clips from an i
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "William Hannah" => "whannah@gmail.com" }
-  s.source           = { :git => "https://github.com/quasivivo/audioManager.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/quasivivo/SoundManager.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/wph'
 
   s.platform     = :ios, '7.0'
