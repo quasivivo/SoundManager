@@ -7,7 +7,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and open `SoundManager.xcworkspace` from the Example directory.  Pod dependencies are currently checked in with the example app.  To update them in the future, run `pod install` from the Example directory.
 
 ## Requirements
 
